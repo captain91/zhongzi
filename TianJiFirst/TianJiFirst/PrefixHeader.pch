@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  TianJiFirst
+//
+//  Created by Sun on 15/11/24.
+//  Copyright © 2015年 jsb. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//屏幕大小
+#define VIEW_WIDTH [UIScreen mainScreen].bounds.size.width
+#define VIEW_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+//mainViewController
+#import "PageViewController.h"
+#import "InformationViewController.h"
+#import "TradeViewController.h"
+#import "HoldViewController.h"
+#import "MineViewController.h"
+
+//二级viewcontroller
+#import "MessageViewController.h"
+
+
+
+
+#endif /* PrefixHeader_pch */

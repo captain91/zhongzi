@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="incomeCell" rowHeight="180" id="KGk-i7-Jjw" customClass="IncomeTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="159"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LyX-UT-HTY">
+                        <rect key="frame" x="8" y="128" width="81" height="23"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="23" id="8ei-Rk-qUe"/>
+                        </constraints>
+                        <state key="normal" title="上证指数"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vsn-lb-Su6">
+                        <rect key="frame" x="120" y="128" width="81" height="23"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="23" id="DgI-2a-rxd"/>
+                        </constraints>
+                        <state key="normal" title="深证指数"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qan-J6-tmE">
+                        <rect key="frame" x="231" y="128" width="81" height="23"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="23" id="EqM-QQ-qEk"/>
+                        </constraints>
+                        <state key="normal" title="总资产"/>
+                    </button>
+                    <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="C3c-cg-k52">
+                        <rect key="frame" x="8" y="8" width="304" height="112"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.7699550986289978" green="0.9432646632194519" blue="0.85999327898025513" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="vsn-lb-Su6" firstAttribute="width" secondItem="Qan-J6-tmE" secondAttribute="width" id="1um-Z6-XPe"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Qan-J6-tmE" secondAttribute="trailing" id="2H8-Vi-usM"/>
+                    <constraint firstItem="vsn-lb-Su6" firstAttribute="leading" secondItem="LyX-UT-HTY" secondAttribute="trailing" constant="31" id="3fN-21-0f6"/>
+                    <constraint firstItem="C3c-cg-k52" firstAttribute="trailing" secondItem="Qan-J6-tmE" secondAttribute="trailing" id="KAA-u3-16c"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="LyX-UT-HTY" secondAttribute="leading" id="LRg-n4-nT2"/>
+                    <constraint firstItem="Qan-J6-tmE" firstAttribute="leading" secondItem="vsn-lb-Su6" secondAttribute="trailing" constant="30" id="VFs-5y-ZZX"/>
+                    <constraint firstItem="C3c-cg-k52" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="WuR-LD-RrK"/>
+                    <constraint firstItem="LyX-UT-HTY" firstAttribute="top" secondItem="C3c-cg-k52" secondAttribute="bottom" constant="8" symbolic="YES" id="Zya-sd-Ghm"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="LyX-UT-HTY" secondAttribute="bottom" id="gN6-yK-GLO"/>
+                    <constraint firstItem="C3c-cg-k52" firstAttribute="leading" secondItem="LyX-UT-HTY" secondAttribute="leading" id="goY-Yi-4Rt"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="vsn-lb-Su6" secondAttribute="bottom" id="h2R-v1-LUb"/>
+                    <constraint firstItem="LyX-UT-HTY" firstAttribute="width" secondItem="vsn-lb-Su6" secondAttribute="width" id="ymA-g6-j2U"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Qan-J6-tmE" secondAttribute="bottom" constant="9" id="iVm-uy-h2c"/>
+            </constraints>
+            <point key="canvasLocation" x="249" y="194"/>
+        </tableViewCell>
+    </objects>
+</document>

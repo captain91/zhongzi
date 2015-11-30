@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A448A6C71C07FD6E0087C4B3 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A448A6C61C07FD6E0087C4B3 /* PageViewController.m */; };
+		A448A6CC1C08067E0087C4B3 /* IncomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A448A6CA1C08067E0087C4B3 /* IncomeTableViewCell.m */; };
+		A448A6CD1C08067E0087C4B3 /* IncomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A448A6CB1C08067E0087C4B3 /* IncomeTableViewCell.xib */; };
+		A448A6D11C081B010087C4B3 /* OperationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A448A6CF1C081B010087C4B3 /* OperationTableViewCell.m */; };
+		A448A6D21C081B010087C4B3 /* OperationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A448A6D01C081B010087C4B3 /* OperationTableViewCell.xib */; };
+		A448A6D61C0861180087C4B3 /* AssetsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A448A6D41C0861180087C4B3 /* AssetsTableViewCell.m */; };
+		A448A6D71C0861180087C4B3 /* AssetsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A448A6D51C0861180087C4B3 /* AssetsTableViewCell.xib */; };
+		A4D2F19C1C043C77005F751C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D2F19B1C043C77005F751C /* main.m */; };
+		A4D2F19F1C043C77005F751C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D2F19E1C043C77005F751C /* AppDelegate.m */; };
+		A4D2F1A71C043C77005F751C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D2F1A61C043C77005F751C /* Assets.xcassets */; };
+		A4D2F1B51C043C77005F751C /* TianJiFirstTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D2F1B41C043C77005F751C /* TianJiFirstTests.m */; };
+		A4D2F1C01C043C77005F751C /* TianJiFirstUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D2F1BF1C043C77005F751C /* TianJiFirstUITests.m */; };
+		A4D2F1D01C044097005F751C /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D2F1CF1C044097005F751C /* InformationViewController.m */; };
+		A4D2F1D61C0449AA005F751C /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D2F1D51C0449AA005F751C /* MessageViewController.m */; };
+		A4D2F1D91C044C90005F751C /* TradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D2F1D81C044C90005F751C /* TradeViewController.m */; };
+		A4D2F1DC1C044CB8005F751C /* HoldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D2F1DB1C044CB8005F751C /* HoldViewController.m */; };
+		A4D2F1DF1C044CCE005F751C /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D2F1DE1C044CCE005F751C /* MineViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4D2F1B11C043C77005F751C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4D2F18F1C043C77005F751C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4D2F1961C043C77005F751C;
+			remoteInfo = TianJiFirst;
+		};
+		A4D2F1BC1C043C77005F751C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4D2F18F1C043C77005F751C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4D2F1961C043C77005F751C;
+			remoteInfo = TianJiFirst;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A448A6C51C07FD6E0087C4B3 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PageViewController.h; path = TianJiFirst/ViewControllers/PageViewController.h; sourceTree = "<group>"; };
+		A448A6C61C07FD6E0087C4B3 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PageViewController.m; path = TianJiFirst/ViewControllers/PageViewController.m; sourceTree = "<group>"; };
+		A448A6C91C08067E0087C4B3 /* IncomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IncomeTableViewCell.h; path = TianJiFirst/TableViewcell/IncomeTableViewCell.h; sourceTree = "<group>"; };
+		A448A6CA1C08067E0087C4B3 /* IncomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IncomeTableViewCell.m; path = TianJiFirst/TableViewcell/IncomeTableViewCell.m; sourceTree = "<group>"; };
+		A448A6CB1C08067E0087C4B3 /* IncomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IncomeTableViewCell.xib; path = TianJiFirst/TableViewcell/IncomeTableViewCell.xib; sourceTree = "<group>"; };
+		A448A6CE1C081B010087C4B3 /* OperationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperationTableViewCell.h; path = TianJiFirst/TableViewCell/OperationTableViewCell.h; sourceTree = "<group>"; };
+		A448A6CF1C081B010087C4B3 /* OperationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OperationTableViewCell.m; path = TianJiFirst/TableViewCell/OperationTableViewCell.m; sourceTree = "<group>"; };
+		A448A6D01C081B010087C4B3 /* OperationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OperationTableViewCell.xib; path = TianJiFirst/TableViewCell/OperationTableViewCell.xib; sourceTree = "<group>"; };
+		A448A6D31C0861180087C4B3 /* AssetsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AssetsTableViewCell.h; path = TianJiFirst/TableViewCell/AssetsTableViewCell.h; sourceTree = "<group>"; };
+		A448A6D41C0861180087C4B3 /* AssetsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AssetsTableViewCell.m; path = TianJiFirst/TableViewCell/AssetsTableViewCell.m; sourceTree = "<group>"; };
+		A448A6D51C0861180087C4B3 /* AssetsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AssetsTableViewCell.xib; path = TianJiFirst/TableViewCell/AssetsTableViewCell.xib; sourceTree = "<group>"; };
+		A4D2F1971C043C77005F751C /* TianJiFirst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TianJiFirst.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D2F19B1C043C77005F751C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4D2F19D1C043C77005F751C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4D2F19E1C043C77005F751C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4D2F1A61C043C77005F751C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4D2F1AB1C043C77005F751C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D2F1B01C043C77005F751C /* TianJiFirstTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TianJiFirstTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D2F1B41C043C77005F751C /* TianJiFirstTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TianJiFirstTests.m; sourceTree = "<group>"; };
+		A4D2F1B61C043C77005F751C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D2F1BB1C043C77005F751C /* TianJiFirstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TianJiFirstUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D2F1BF1C043C77005F751C /* TianJiFirstUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TianJiFirstUITests.m; sourceTree = "<group>"; };
+		A4D2F1C11C043C77005F751C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D2F1CE1C044097005F751C /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InformationViewController.h; path = TianJiFirst/ViewControllers/InformationViewController.h; sourceTree = "<group>"; };
+		A4D2F1CF1C044097005F751C /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InformationViewController.m; path = TianJiFirst/ViewControllers/InformationViewController.m; sourceTree = "<group>"; };
+		A4D2F1D11C0441AA005F751C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A4D2F1D41C0449AA005F751C /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageViewController.h; path = TianJiFirst/ViewControllers/MessageViewController.h; sourceTree = "<group>"; };
+		A4D2F1D51C0449AA005F751C /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageViewController.m; path = TianJiFirst/ViewControllers/MessageViewController.m; sourceTree = "<group>"; };
+		A4D2F1D71C044C90005F751C /* TradeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TradeViewController.h; path = TianJiFirst/ViewControllers/TradeViewController.h; sourceTree = "<group>"; };
+		A4D2F1D81C044C90005F751C /* TradeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TradeViewController.m; path = TianJiFirst/ViewControllers/TradeViewController.m; sourceTree = "<group>"; };
+		A4D2F1DA1C044CB8005F751C /* HoldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HoldViewController.h; path = TianJiFirst/ViewControllers/HoldViewController.h; sourceTree = "<group>"; };
+		A4D2F1DB1C044CB8005F751C /* HoldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HoldViewController.m; path = TianJiFirst/ViewControllers/HoldViewController.m; sourceTree = "<group>"; };
+		A4D2F1DD1C044CCE005F751C /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MineViewController.h; path = TianJiFirst/ViewControllers/MineViewController.h; sourceTree = "<group>"; };
+		A4D2F1DE1C044CCE005F751C /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MineViewController.m; path = TianJiFirst/ViewControllers/MineViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4D2F1941C043C77005F751C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D2F1AD1C043C77005F751C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D2F1B81C043C77005F751C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A448A6C81C0806430087C4B3 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A448A6C91C08067E0087C4B3 /* IncomeTableViewCell.h */,
+				A448A6CA1C08067E0087C4B3 /* IncomeTableViewCell.m */,
+				A448A6CB1C08067E0087C4B3 /* IncomeTableViewCell.xib */,
+				A448A6CE1C081B010087C4B3 /* OperationTableViewCell.h */,
+				A448A6CF1C081B010087C4B3 /* OperationTableViewCell.m */,
+				A448A6D01C081B010087C4B3 /* OperationTableViewCell.xib */,
+				A448A6D31C0861180087C4B3 /* AssetsTableViewCell.h */,
+				A448A6D41C0861180087C4B3 /* AssetsTableViewCell.m */,
+				A448A6D51C0861180087C4B3 /* AssetsTableViewCell.xib */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		A4D2F18E1C043C77005F751C = {
+			isa = PBXGroup;
+			children = (
+				A448A6C81C0806430087C4B3 /* TableViewCell */,
+				A4D2F1CD1C044012005F751C /* ViewControllers */,
+				A4D2F1991C043C77005F751C /* TianJiFirst */,
+				A4D2F1B31C043C77005F751C /* TianJiFirstTests */,
+				A4D2F1BE1C043C77005F751C /* TianJiFirstUITests */,
+				A4D2F1981C043C77005F751C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4D2F1981C043C77005F751C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4D2F1971C043C77005F751C /* TianJiFirst.app */,
+				A4D2F1B01C043C77005F751C /* TianJiFirstTests.xctest */,
+				A4D2F1BB1C043C77005F751C /* TianJiFirstUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4D2F1991C043C77005F751C /* TianJiFirst */ = {
+			isa = PBXGroup;
+			children = (
+				A4D2F19D1C043C77005F751C /* AppDelegate.h */,
+				A4D2F19E1C043C77005F751C /* AppDelegate.m */,
+				A4D2F1A61C043C77005F751C /* Assets.xcassets */,
+				A4D2F1AB1C043C77005F751C /* Info.plist */,
+				A4D2F1D11C0441AA005F751C /* PrefixHeader.pch */,
+				A4D2F19A1C043C77005F751C /* Supporting Files */,
+			);
+			path = TianJiFirst;
+			sourceTree = "<group>";
+		};
+		A4D2F19A1C043C77005F751C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4D2F19B1C043C77005F751C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4D2F1B31C043C77005F751C /* TianJiFirstTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4D2F1B41C043C77005F751C /* TianJiFirstTests.m */,
+				A4D2F1B61C043C77005F751C /* Info.plist */,
+			);
+			path = TianJiFirstTests;
+			sourceTree = "<group>";
+		};
+		A4D2F1BE1C043C77005F751C /* TianJiFirstUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4D2F1BF1C043C77005F751C /* TianJiFirstUITests.m */,
+				A4D2F1C11C043C77005F751C /* Info.plist */,
+			);
+			path = TianJiFirstUITests;
+			sourceTree = "<group>";
+		};
+		A4D2F1CD1C044012005F751C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A448A6C51C07FD6E0087C4B3 /* PageViewController.h */,
+				A448A6C61C07FD6E0087C4B3 /* PageViewController.m */,
+				A4D2F1CE1C044097005F751C /* InformationViewController.h */,
+				A4D2F1CF1C044097005F751C /* InformationViewController.m */,
+				A4D2F1D71C044C90005F751C /* TradeViewController.h */,
+				A4D2F1D81C044C90005F751C /* TradeViewController.m */,
+				A4D2F1DA1C044CB8005F751C /* HoldViewController.h */,
+				A4D2F1DB1C044CB8005F751C /* HoldViewController.m */,
+				A4D2F1DD1C044CCE005F751C /* MineViewController.h */,
+				A4D2F1DE1C044CCE005F751C /* MineViewController.m */,
+				A4D2F1D41C0449AA005F751C /* MessageViewController.h */,
+				A4D2F1D51C0449AA005F751C /* MessageViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4D2F1961C043C77005F751C /* TianJiFirst */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D2F1C41C043C77005F751C /* Build configuration list for PBXNativeTarget "TianJiFirst" */;
+			buildPhases = (
+				A4D2F1931C043C77005F751C /* Sources */,
+				A4D2F1941C043C77005F751C /* Frameworks */,
+				A4D2F1951C043C77005F751C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TianJiFirst;
+			productName = TianJiFirst;
+			productReference = A4D2F1971C043C77005F751C /* TianJiFirst.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4D2F1AF1C043C77005F751C /* TianJiFirstTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D2F1C71C043C77005F751C /* Build configuration list for PBXNativeTarget "TianJiFirstTests" */;
+			buildPhases = (
+				A4D2F1AC1C043C77005F751C /* Sources */,
+				A4D2F1AD1C043C77005F751C /* Frameworks */,
+				A4D2F1AE1C043C77005F751C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4D2F1B21C043C77005F751C /* PBXTargetDependency */,
+			);
+			name = TianJiFirstTests;
+			productName = TianJiFirstTests;
+			productReference = A4D2F1B01C043C77005F751C /* TianJiFirstTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4D2F1BA1C043C77005F751C /* TianJiFirstUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D2F1CA1C043C77005F751C /* Build configuration list for PBXNativeTarget "TianJiFirstUITests" */;
+			buildPhases = (
+				A4D2F1B71C043C77005F751C /* Sources */,
+				A4D2F1B81C043C77005F751C /* Frameworks */,
+				A4D2F1B91C043C77005F751C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4D2F1BD1C043C77005F751C /* PBXTargetDependency */,
+			);
+			name = TianJiFirstUITests;
+			productName = TianJiFirstUITests;
+			productReference = A4D2F1BB1C043C77005F751C /* TianJiFirstUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4D2F18F1C043C77005F751C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = jsb;
+				TargetAttributes = {
+					A4D2F1961C043C77005F751C = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					A4D2F1AF1C043C77005F751C = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = A4D2F1961C043C77005F751C;
+					};
+					A4D2F1BA1C043C77005F751C = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = A4D2F1961C043C77005F751C;
+					};
+				};
+			};
+			buildConfigurationList = A4D2F1921C043C77005F751C /* Build configuration list for PBXProject "TianJiFirst" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4D2F18E1C043C77005F751C;
+			productRefGroup = A4D2F1981C043C77005F751C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4D2F1961C043C77005F751C /* TianJiFirst */,
+				A4D2F1AF1C043C77005F751C /* TianJiFirstTests */,
+				A4D2F1BA1C043C77005F751C /* TianJiFirstUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4D2F1951C043C77005F751C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A448A6CD1C08067E0087C4B3 /* IncomeTableViewCell.xib in Resources */,
+				A4D2F1A71C043C77005F751C /* Assets.xcassets in Resources */,
+				A448A6D71C0861180087C4B3 /* AssetsTableViewCell.xib in Resources */,
+				A448A6D21C081B010087C4B3 /* OperationTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D2F1AE1C043C77005F751C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D2F1B91C043C77005F751C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4D2F1931C043C77005F751C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D2F1D01C044097005F751C /* InformationViewController.m in Sources */,
+				A4D2F1DF1C044CCE005F751C /* MineViewController.m in Sources */,
+				A4D2F1D91C044C90005F751C /* TradeViewController.m in Sources */,
+				A448A6C71C07FD6E0087C4B3 /* PageViewController.m in Sources */,
+				A4D2F19F1C043C77005F751C /* AppDelegate.m in Sources */,
+				A4D2F1D61C0449AA005F751C /* MessageViewController.m in Sources */,
+				A4D2F19C1C043C77005F751C /* main.m in Sources */,
+				A4D2F1DC1C044CB8005F751C /* HoldViewController.m in Sources */,
+				A448A6CC1C08067E0087C4B3 /* IncomeTableViewCell.m in Sources */,
+				A448A6D11C081B010087C4B3 /* OperationTableViewCell.m in Sources */,
+				A448A6D61C0861180087C4B3 /* AssetsTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D2F1AC1C043C77005F751C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D2F1B51C043C77005F751C /* TianJiFirstTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D2F1B71C043C77005F751C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D2F1C01C043C77005F751C /* TianJiFirstUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4D2F1B21C043C77005F751C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4D2F1961C043C77005F751C /* TianJiFirst */;
+			targetProxy = A4D2F1B11C043C77005F751C /* PBXContainerItemProxy */;
+		};
+		A4D2F1BD1C043C77005F751C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4D2F1961C043C77005F751C /* TianJiFirst */;
+			targetProxy = A4D2F1BC1C043C77005F751C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4D2F1C21C043C77005F751C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4D2F1C31C043C77005F751C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4D2F1C51C043C77005F751C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TianJiFirst/PrefixHeader.pch";
+				INFOPLIST_FILE = TianJiFirst/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzi.com.TianJiFirst;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A4D2F1C61C043C77005F751C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TianJiFirst/PrefixHeader.pch";
+				INFOPLIST_FILE = TianJiFirst/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzi.com.TianJiFirst;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A4D2F1C81C043C77005F751C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TianJiFirstTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzi.com.TianJiFirstTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TianJiFirst.app/TianJiFirst";
+			};
+			name = Debug;
+		};
+		A4D2F1C91C043C77005F751C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TianJiFirstTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzi.com.TianJiFirstTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TianJiFirst.app/TianJiFirst";
+			};
+			name = Release;
+		};
+		A4D2F1CB1C043C77005F751C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TianJiFirstUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzi.com.TianJiFirstUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TianJiFirst;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A4D2F1CC1C043C77005F751C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TianJiFirstUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzi.com.TianJiFirstUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TianJiFirst;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4D2F1921C043C77005F751C /* Build configuration list for PBXProject "TianJiFirst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D2F1C21C043C77005F751C /* Debug */,
+				A4D2F1C31C043C77005F751C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D2F1C41C043C77005F751C /* Build configuration list for PBXNativeTarget "TianJiFirst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D2F1C51C043C77005F751C /* Debug */,
+				A4D2F1C61C043C77005F751C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D2F1C71C043C77005F751C /* Build configuration list for PBXNativeTarget "TianJiFirstTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D2F1C81C043C77005F751C /* Debug */,
+				A4D2F1C91C043C77005F751C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D2F1CA1C043C77005F751C /* Build configuration list for PBXNativeTarget "TianJiFirstUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D2F1CB1C043C77005F751C /* Debug */,
+				A4D2F1CC1C043C77005F751C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4D2F18F1C043C77005F751C /* Project object */;
+}
