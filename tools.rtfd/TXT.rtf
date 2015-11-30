@@ -1,0 +1,61 @@
+{\rtf1\ansi\ansicpg936\cocoartf1404\cocoasubrtf130
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset134 PingFangSC-Regular;}
+{\colortbl;\red255\green255\blue255;\red46\green111\blue253;\red255\green0\blue0;\red0\green0\blue255;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww13020\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf2 CocoaPods
+\f1 \'b5\'c4\'ca\'b9\'d3\'c3
+\f0  Mac
+\f1 \'cf\'c2
+\f0\fs24 \cf0 \
+1.Ruby
+\f1 \'bb\'b7\'be\'b3\'b4\'ee\'bd\'a8
+\f0 \
+
+\f1 	\cf3 $ruby -v\cf0 \
+	\'b2\'e9\'bf\'b4ruby\'b0\'e6\'b1\'be\
+2.\'b8\'fc\'d0\'c2ruby\'a3\'a8\'b0\'d1ruby\'be\'b5\'cf\'f1\'d6\'b8\'cf\'f2taboo\'a3\'ac\'b1\'dc\'c3\'e2\'b1\'bb\'c7\'bd\
+	\cf3 gem sources \'a1\'aaremove https://rubygems.org\
+	gem sources -a https://ruby.taobao.org\
+	gem sources -l\cf0  \'a3\'a8\'d3\'c3\'c0\'b4\'bc\'ec\'b2\'e9\'ca\'b9\'d3\'c3\'cc\'e6\'bb\'bb\'be\'b5\'cf\'f1\'ce\'bb\'d6\'c3\'b3\'c9\'b9\'a6\'a3\'a9\
+3.\'cf\'c2\'d4\'d8\'b0\'b2\'d7\'b0CocoaPods\
+	\cf3 sudo gem install cocoapods\cf0 \
+4.\'ca\'b9\'d3\'c3CocoaPods\
+	a.\'d0\'c2\'bd\'a8\'cf\'ee\'c4\'bf\'a3\'ac\
+	b.\'d4\'da\'d6\'d5\'b6\'cbcd \'b5\'bd\'cf\'ee\'c4\'bf\'d7\'dc\'c4\'bf\'c2\'bc\'a3\'a8\'d7\'a2\'d2\'e2\'b0\'fc\'ba\'acxxx\'ce\'c4\'bc\'fe\'bc\'d0\'a1\'a2xxx.xcodeproj\'a1\'a2xxx\'b5\'c4\'c4\'c7\'b8\'f6\'d7\'dc\'c4\'bf\'c2\'bc\
+	c.\'bd\'a8\'c1\'a2Podfile\'c5\'e4\'d6\'c3\'ce\'c4\'bc\'fe\
+		\cf3 vim Podfile\
+\cf0 			platform:iOS,\'a1\'ae7\'a1\'af\
+			pod \'a1\'aeMBProgressHUD\'a1\'af,\'a1\'af~>0.8\'a1\'af\
+		\'b1\'a3\'b4\'e6\'cd\'cb\'b3\'f6\'a3\'bawq\
+	d. \
+		\cf3 pod install\cf0 \
+		\'b5\'c8\'b4\'fd\'c8\'bb\'ba\'f3\'d4\'d9\'b4\'f2\'bf\'aaxxx.xcworkspace\'ce\'c4\'bc\'fe\
+\
+
+\fs34 \cf4 github\'b5\'c4\'ca\'b9\'d3\'c3
+\fs24 \cf0 \
+	1.cd ~/.ssh //\'bc\'ec\'b2\'e9\'ca\'c7\'b7\'f1\'d2\'d1\'be\'ad\'b4\'e6\'d4\'dassh\
+	2.ssh-keygen -t rss -C xxxxx@163.com //\'d7\'a2\'b2\'e1github\'ca\'b1\'b5\'c4email\
+	3.\'b5\'c7\'c2\'bdgithub \'cc\'ed\'bc\'d3ssh \'b4\'f2\'bf\'aaid_rsa.pub \'ce\'c4\'bc\'fe\'a3\'ac\'bd\'ab\'c6\'e4\'d6\'d0\'c4\'da\'c8\'dd\'bf\'bd\'b1\'b4\
+	4.\'b4\'f2\'bf\'aa\'d6\'d5\'b6\'cb \'a3\'bassh -T git@github.com  \'ca\'c7\'b7\'f1\'d2\'d1\'c1\'ac\'bd\'d3\
+	5.\'b4\'b4\'bd\'a8\'d7\'d4\'bc\'ba\'b5\'c4Repository \'d4\'dagithub\'c9\'cf\
+	6.\'c8\'bb\'ba\'f3\'d5\'d2\'b5\'bd\'d2\'aa\'c9\'cf\'b4\'ab\'ce\'c4\'bc\'fe\'b5\'c4\'c4\'bf\'c2\'bc\
+		git init\
+		git add \
+		git commit -m \'a1\'b0\'d7\'a2\'ca\'cd\'a1\'b1\
+		git remote add origin git@github.com:captian91/zhongzi.git\
+		git push -u origin master\
+	\'ce\'ca\'cc\'e21\'a3\'ba\
+		fatal:remote origin already exists\
+		git remote rm origin\
+		git remote add origin git@github.com:captain91/zhongzi.git\
+		//\'c8\'e7\'b9\'fb\'ca\'e4\'c8\'ebgit remote rm origin \'bb\'b9\'b1\'a8\'b4\'ederror: Could not remove config section \'a1\'aeremote.origin\'a1\'af\
+		\'d5\'d2\'b5\'bdgit\'b5\'c4\'b0\'b2\'d7\'b0\'c2\'b7\'be\'b6\'d5\'d2\'b5\'bdgitconfig\'b5\'c4\'ce\'c4\'bc\'fe \'c9\'be\'b3\'fd\'a1\'beremote \'a1\'b0origin\'a1\'b1\'a1\'bf\'be\'cd\'bf\'c9\'d2\'d4\'c1\'cb\
+	\'ce\'ca\'cc\'e22\'a3\'ba\
+		git push origin master //error:failed to push som refs to \'a1\'ad\'a1\'ad\
+		git pull origin master //\'cf\'c8\'b0\'d1\'d4\'b6\'b3\'cc\'b7\'fe\'ce\'f1\'c6\'f7github\'c9\'cf\'c3\'e6\'b5\'c4\'ce\'c4\'bc\'fe\'c0\'ad\'cf\'c2\'c0\'b4\
+		git push origin master\
+}
